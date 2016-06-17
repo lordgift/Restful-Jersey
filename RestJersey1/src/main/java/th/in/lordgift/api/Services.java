@@ -1,4 +1,4 @@
-package th.in.lordgift.RestJersey2;
+package th.in.lordgift.api;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
