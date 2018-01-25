@@ -23,3 +23,32 @@ Project : Maven Project
 Editor : Eclipse Mars
 Application Server : WildFly 9
 ```
+
+
+JSON
+
+MediaType : application/xml 
+```xml
+    <appdata>
+        <items>
+            <itemid>1</itemid>
+            <itemname>My Item</itemname>
+        </items>
+        <orderdate>12/02/2559</orderdate>
+        <orderid>33</orderid>
+    </appdata>
+```
+
+MediaType : application/json
+```json     
+    {
+      "items": [
+        {
+          "itemId": 1,
+          "itemName": "My Item"
+        }
+      ],
+      "orderDate": "12/02/2559",
+      "orderId": 33
+    }
+```
